@@ -1,0 +1,17 @@
+.sidenav .sidebar-nav-fixed .ads {
+    width: 280%;
+    height: 400px;
+}
+
+div.App div.container-fluid.text-center {
+    position: relative;
+}
+
+div.App div.container-fluid.text-center .logout-btn {
+    right: 5px;
+    position: absolute;
+}
+
+.sidebar-nav-fixed.pull-right.affix {
+    top: 240px;
+}

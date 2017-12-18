@@ -1,0 +1,45 @@
+blockquote {
+    color: white;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    border-left: none;
+}
+
+blockquote:before {
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote .square {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 52px;
+    color: white;
+    margin-right: 20px;
+}
+
+blockquote.sent {
+    background-color: #dc3545;
+}
+
+blockquote.received {
+    background-color: #28a745;
+}
+
+blockquote cite {
+    font-size: 12px;
+    text-decoration-style: solid;
+}
+
+blockquote.amount {
+    text-align: right;
+}
+
+.create-transaction {
+    text-align: center;
+}
